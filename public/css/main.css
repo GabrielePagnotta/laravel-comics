@@ -20,6 +20,8 @@
     position:absolute;
     bottom:-25px;
     left: 300px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
 }
 
 .background-comix{

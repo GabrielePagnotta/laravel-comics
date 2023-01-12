@@ -3,10 +3,10 @@
 
 .try{
     display:flex;
-    align-items: center;
     justify-content: space-around;
-    padding:10px 200px;
-    
+    padding:5px 200px;
+    height: 147px;
+    align-items: center;  
 }
 
 img{
@@ -15,12 +15,15 @@ img{
 
 .line{
     float: left;
-    margin-left:20px;
+    margin-top: 50px;
+    margin-left:30px;
+    height: 97px;
+    
     
 }
 
 .line:hover{
-    border-bottom: 1px solid  #0057e3;
+    border-bottom: 5px solid  #0057e3;
     
 }
 a:hover{
@@ -40,6 +43,9 @@ input{
 
 a{
     color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
 .inner-line{

@@ -16,11 +16,27 @@ li{
     color: gray;
     line-height: 25px;
 }
+
+li:hover{
+color: white;
+cursor: pointer;
+}
 h4{
     margin: 20px 0;
     color: white;
 }
 .margin-lists{
     margin-right: 50px;
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: white;
+    color: #0057e3;
 }
 
