@@ -1,0 +1,54 @@
+@import url("app.css");
+
+
+.try{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:10px 200px;
+    
+}
+
+img{
+    width:80%;
+}
+
+.line{
+    float: left;
+    margin-left:20px;
+    
+}
+
+.line:hover{
+    border-bottom: 1px solid  #0057e3;
+    
+}
+a:hover{
+    color: #0057e3;
+}
+
+/* li:hover{
+    border-bottom:3px solid #0057e3;
+    padding-bottom: 100px;
+} */
+
+input{
+    width:70%;
+    border: none;
+    border-bottom:3px solid #0057e3;
+}
+
+a{
+    color: black;
+}
+
+.inner-line{
+    width: 100%;
+    background-color: #0057e3;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 0.8rem;
+    padding:3px 200px;
+}
+

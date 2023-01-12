@@ -1,0 +1,86 @@
+@import url("app.css");
+
+.jumbo{
+    width: 100%;
+    height: 410px;
+   background-image: url(../images/jumbotron.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   position: relative;
+   
+}
+
+.current-series{
+    width: 13%;
+    background-color: #0057e3;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    padding:10px;
+    position:absolute;
+    bottom:-25px;
+    left: 300px;
+}
+
+.background-comix{
+    
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:100px;
+    
+}
+
+.see-more{
+    background-color: #0057e3;
+    color: white;
+    padding: 20px;
+}
+
+.see-more:hover{
+    background-color: white;
+    color: #0057e3;
+}
+
+.see-icons{
+    height: 200px;
+    background-color:#0057e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.icons{
+    width: 70px;
+    margin: 20pc 50px;
+}
+
+.card{
+    width: calc(100% / 7 );
+    display: flex;
+    flex-direction: column;
+    margin: 50px 10px;
+    
+    
+}
+
+.card-image{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-size{
+    width: 100%;
+}
+
+.card-title{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 20px;
+    
+}
+
