@@ -12,7 +12,7 @@
         <ul>
             
             <li class="line"><a href="#">CHARACTER</a></li>
-            <li class="line"><a href="#">COMICS</a></li>
+            <li class="line"><a href="http://127.0.0.1:8000/comix">COMICS</a></li>
             <li class="line"><a href="#">MOVIES</a></li>
             <li class="line"><a href="#">TV</a></li>
             <li class="line"><a href="#">GAMES</a></li>

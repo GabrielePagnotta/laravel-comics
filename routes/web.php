@@ -15,8 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    
-
 $comix= [
     [
         "title" => "Action Comics #1000: The Deluxe Edition",
@@ -230,7 +228,10 @@ $comix= [
         ],
     ],
 ];
-
-
     return view('homepage', compact("comix"));
+});
+
+Route::get('/comix', function () {
+    
+    return view('comixPage');
 });

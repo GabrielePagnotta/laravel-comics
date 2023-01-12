@@ -9,15 +9,13 @@
 <body>
 
     <header>
-            @include("components.navbar")
+        @include("components.navbar")
     </header>
     <main>
-        @include("components.maincontent")
-        @include("components.comix")
-        @include("components.icons")
+       
     </main>
     <footer>
-        @include("components.footerOne")
+        
     </footer>
 </body>
 </html>

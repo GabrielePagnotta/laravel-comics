@@ -16,7 +16,7 @@
 
  @endforeach
     <div>
-        <a class="see-more" href="">LOAD MORE</a>
+        <a class="see-more" href="http://127.0.0.1:8000/comix">LOAD MORE</a>
     </div>
     
 </div>

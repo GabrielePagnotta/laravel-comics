@@ -1,0 +1,26 @@
+@import url("app.css");
+.box{
+    display: flex;
+    background-image: url("../images/footer-bg.jpg");
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 500px;
+    position: relative;
+    
+}
+img{
+    justify-self: end;
+}
+li{
+    color: gray;
+    line-height: 25px;
+}
+h4{
+    margin: 20px 0;
+    color: white;
+}
+.margin-lists{
+    margin-right: 50px;
+}
+
