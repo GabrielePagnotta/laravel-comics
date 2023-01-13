@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{asset("css./main.css")}}">
+<link rel="stylesheet" href="{{asset("css./page1/main.css")}}">
 
 <div class=see-icons>
     <img class="icons" src="{{asset("images/buy-comics-digital-comics.png")}}" alt="icon-1">

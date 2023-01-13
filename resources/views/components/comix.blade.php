@@ -1,18 +1,18 @@
-<link rel="stylesheet" href="{{asset("css./main.css")}}">
+<link rel="stylesheet" href="{{asset("css./page1/main.css")}}">
 <div class="background-comix">
 
 
-    @foreach($comix as $element )
-        
+    @foreach($comix as $id=>$value)
     <div class="card">
+        <a href="{{route('show.fumetti',compact('id'))}}">
         <div class="card-image">
-            <img class="img-size" src="{{asset("$element[thumb]")}}" alt="">
+            <img class="img-size" src="{{asset("$value[thumb]")}}" alt="">
         </div>
         <div class="card-title">
-            <p>{{$element["title"]}}</p>
+            <p>{{$value["title"]}}</p>
         </div>
+    </a>
     </div>
-    
 
  @endforeach
     <div>

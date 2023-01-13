@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{asset("css/header.css")}}">
+<link rel="stylesheet" href="{{asset("css/page1/header.css")}}">
 <div class="inner-line">
     <p>DC POWER VISA</p>
     <span>ADDITIONAL DC SITE</span>

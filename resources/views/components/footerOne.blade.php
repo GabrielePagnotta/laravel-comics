@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{asset("css./footer.css")}}">
+<link rel="stylesheet" href="{{asset("css./page1/footer.css")}}">
 <div class="box">
         <div class="flex">
             <div class="margin-lists">
