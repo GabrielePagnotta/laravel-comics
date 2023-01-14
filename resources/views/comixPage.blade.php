@@ -6,10 +6,20 @@
 
 @section("title","DC comix-fumetti")
 @section("main-content")
+    
+    <link rel="stylesheet" href="{{asset("css./page1/main.css")}}">
+
+    <section class="jumbo">
+    <div class="current-series-2">
+            <img class="showcomix" src="{{$arraysaved["thumb"]}}" alt="">
+    </div>
+    <div class="title-showbook">COMIC BOOK</div>
+    <div class="gallery-showbook">VIEW GALLERY</div>
+    </section>
     <div class="blue-container"></div>
     <div class="content">
-        <div>
-            <h1>{{$arraysaved["title"]}}</h1>
+            <div>
+                <h1>{{$arraysaved["title"]}}</h1>
             <div class="greenline-price">
                 <div class="price">
                     <p>U.S. PRICE <span class="number-price">{{$arraysaved["price"]}}</span></p>
@@ -25,8 +35,9 @@
             <div>
                 <label for="adv">advertisement</label>
                 <div class="adv">
-                    <img src="https://static.miraheze.org/nonciclopediawiki/4/45/Monstero_art_attack.jpg" alt="advertising-image">
+                    <img src="../images/advertise.png" alt="advertising-image">
                 </div>
             </div>
     </div>
+    
 @endsection

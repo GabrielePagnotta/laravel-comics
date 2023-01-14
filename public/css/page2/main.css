@@ -68,3 +68,52 @@ h1 {
     color: white;
     margin-left: 10px;
 }
+
+.showcomix{
+    position: relative;
+    width: 100%;
+    border: 2px solid white;  
+    z-index: 1;  
+}
+
+
+
+.current-series-2{
+    width: 14%;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    position:absolute;
+    bottom:-70px;
+    left: 300px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    display: flex;
+    
+}
+
+.title-showbook{
+    position: absolute;
+    top: 112px;
+    left: 313px;
+    background-color: #0057e3;
+    z-index: 1;
+    padding: 5PX;
+    color: white;
+     font-family: 'Roboto Condensed', sans-serif;
+     font-weight: bold;
+}
+
+.gallery-showbook{
+    width: 240px;
+    position: absolute;
+    top: 450px;
+    left: 313px;
+    background-color: #0057e3;
+    z-index: 1;
+    padding: 5px;
+    color: white;
+     font-family: 'Roboto Condensed', sans-serif;
+     font-weight: bold;
+     text-align: center;
+}

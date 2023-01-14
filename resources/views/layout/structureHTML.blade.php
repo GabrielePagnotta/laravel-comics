@@ -15,7 +15,8 @@
             @include("components.navbar")
     </header>
     <main>
-        @include("components.maincontent")
+        
+        @yield("jumbotron")
         @include("components.comix")
         @include("components.icons")
     </main>

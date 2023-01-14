@@ -13,7 +13,7 @@
         @include("components.navbar")
     </header>
     <main>
-        @include("components.maincontent")
+        
        @yield("main-content")
     </main>
     <footer>
