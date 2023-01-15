@@ -1,3 +1,5 @@
+{{-- NON UTILIZZARE GOOGLE CHROME PER APRIRE IL PROGETTO --}}
+
 @extends("layout.structureHTML2")
 @section('link')
 <link rel="stylesheet" href="{{asset("css/page2/main.css")}}">
@@ -13,7 +15,7 @@
     <div class="current-series-2">
             <img class="showcomix" src="{{$arraysaved["thumb"]}}" alt="">
     </div>
-    <div class="title-showbook">COMIC BOOK</div>
+    <div class="title-showbook">{{strtoupper($arraysaved["type"])}}</div>
     <div class="gallery-showbook">VIEW GALLERY</div>
     </section>
     <div class="blue-container"></div>
@@ -39,5 +41,73 @@
                 </div>
             </div>
     </div>
-    
+
+    <div class="info-container">
+        <div class="talent">
+            <div class="elem">
+               <h1>Talent</h1> 
+            </div>
+             <hr>
+             <div class="elem">
+                <h3>Art by:</h3>
+                @foreach($arraysaved["artists"] as $key)
+                    
+                <span>{{$key}}</span>
+                @endforeach
+             </div>
+             <hr>
+             <div class="elem">
+                <h3>Written by:</h3>
+                @foreach($arraysaved["writers"] as $key)
+                    
+                <span>{{$key}}</span>
+                @endforeach
+             </div>
+             <hr>
+        </div>
+        <div class="talent">
+            <div class="elem">
+                <h1>Specs</h1> 
+             </div>
+              <hr>
+              <div class="elem">
+                 <h3>Series:</h3>
+                 
+                    
+                <span>{{$arraysaved["series"]}}</span>
+                
+              </div>
+              <hr>
+              <div class="elem">
+                 <h3>U.S. Price:</h3>
+                 <span>{{$arraysaved["price"]}}</span>
+              </div>
+              <hr>
+              <div class="elem">
+                <h3>On Sale Date:</h3>
+                <span>{{$arraysaved["sale_date"]}}</span>
+             </div>
+             <hr>
+        </div>
+        
+    </div>
+<div class="full-size">
+    <hr>
+    <div class="icons2">
+        <div>DIGITAL COMICS</div>
+        
+    </div>
+    <div class="icons2">
+        <div>SHOP DC</div>
+        
+    </div>
+    <div class="icons2">
+        <div>COMIC SHOP LOCATOR</div>
+        
+    </div>
+    <div class="icons2">
+        <p>SUBSCRIPTION</p>
+        
+    </div>
+</div>
 @endsection

@@ -12,10 +12,11 @@
 article {
     max-width: 95%;
     font-size: 1.3rem;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 img {
-    width: 100%;
+    width: 60%;
 }
 
 .adv {
@@ -25,6 +26,11 @@ img {
 
 h1 {
     line-height: 70px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .greenline-price {
@@ -117,3 +123,44 @@ h1 {
      font-weight: bold;
      text-align: center;
 }
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(248, 240, 240, 0.761);
+    padding: 5px 100px 100px 100px;
+}
+
+.elem{
+    margin: 20px; 
+}
+
+.elem h3{
+    display: inline;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.talent{
+    width: 50%;
+    margin: 50px;
+}
+span{
+   display: inline;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+.full-size{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+
+.icons2{
+    width: 20%;
+    margin: 0px;
+    border: 1px solid lightgray;
+    display: flex;
+}
+
+

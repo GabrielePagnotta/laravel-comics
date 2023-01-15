@@ -7,6 +7,8 @@
     padding:5px 200px;
     height: 147px;
     align-items: center;  
+    position: sticky;
+    
 }
 
 img{

@@ -6,13 +6,13 @@
 <nav class="try">
     
     <div>
-        <img src="{{asset("images/dc-logo.png")}}" alt="main-logo">
+       <a href="/"><img src="{{asset("images/dc-logo.png")}}" alt="main-logo"></a> 
     </div>
     <div>
         <ul>
             
             <li class="line"><a href="#">CHARACTER</a></li>
-            <li class="line"><a href="http://127.0.0.1:8000/comix">COMICS</a></li>
+            <li class="line"><a href="{{route('show')}}">COMICS</a></li>
             <li class="line"><a href="#">MOVIES</a></li>
             <li class="line"><a href="#">TV</a></li>
             <li class="line"><a href="#">GAMES</a></li>
